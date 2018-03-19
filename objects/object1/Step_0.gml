@@ -1,2 +1,0 @@
-spriter_update(self)
-

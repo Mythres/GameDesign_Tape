@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "05f10790-6388-42ec-8147-fff02b83b7c5",
+            "Value": {
+                "id": "b9585fd4-4f27-4a5a-8f3c-fd83b7a0d8a2",
+                "resourcePath": "objects\\score_ui\\score_ui.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0a164c30-d542-40c4-96bf-a08785b01c65",
             "Value": {
                 "id": "71dc3554-7482-40ad-a786-1f25bc8619bc",
@@ -167,6 +175,14 @@
             }
         },
         {
+            "Key": "26efab29-348b-47b9-b042-89a47d1d897c",
+            "Value": {
+                "id": "fbe1720d-9f1d-4cac-a9f0-b799d5a9bb67",
+                "resourcePath": "sprites\\sprite3\\sprite3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "28cc9579-cd0c-4863-ac97-aaa434582526",
             "Value": {
                 "id": "23b61a07-7c08-4ba0-920c-95c629119405",
@@ -236,6 +252,14 @@
                 "id": "3150b07f-451c-4d09-b0b5-79e1c196fe32",
                 "resourcePath": "views\\4051eb38-5109-444d-b044-605cd56b4b9f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4107b3d7-99e5-42b6-bc80-0af0909d1653",
+            "Value": {
+                "id": "b887aa1a-0d70-46bd-b295-b4c2d661d6da",
+                "resourcePath": "sprites\\score_ui_sprite\\score_ui_sprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -388,6 +412,14 @@
                 "id": "c5929ee2-8f94-4590-8acb-09462fe80930",
                 "resourcePath": "views\\666d717f-7445-45f3-b347-a197e52deb56.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "67ac7156-1314-43f2-a3e7-584a05e0bbba",
+            "Value": {
+                "id": "f2cccd9a-04a7-4271-b535-dba4c7474a41",
+                "resourcePath": "fonts\\arial_score\\arial_score.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -794,7 +826,7 @@
             "Key": "ff74b6df-4ebf-469c-8547-d69a713a9c81",
             "Value": {
                 "id": "637e0ade-a88d-495d-8dcb-2898979562b4",
-                "resourcePath": "objects\\object1\\object1.yy",
+                "resourcePath": "objects\\player\\player.yy",
                 "resourceType": "GMObject"
             }
         }
