@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="scissors1.png" width="813" height="900" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="scissorssheet.png" width="2391" height="1300" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="scissors1-part2.png" width="813" height="900" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="scissors1-part1.png" width="813" height="900" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="scissors2.png" width="886" height="838" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="scissors3.png" width="550" height="547" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="scissor">
+        <animation id="0" name="CutAndFly" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="300">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="456">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="3" time="600">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="scissors1-part2">
+                <key id="0">
+                    <object folder="0" file="2"/>
+                </key>
+                <key id="1" time="300">
+                    <object folder="0" file="2" x="-1.5625" y="23.4375" angle="20"/>
+                </key>
+                <key id="2" time="456" spin="-1">
+                    <object folder="0" file="2" x="-5.38667" y="22.73444" angle="34.744973" scale_x="1"/>
+                </key>
+                <key id="3" time="600" spin="-1">
+                    <object folder="0" file="2" x="-3.125" y="51.5625" angle="29.427456"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="scissors1-part1">
+                <key id="0" spin="-1">
+                    <object folder="0" file="3"/>
+                </key>
+                <key id="1" time="300" spin="-1">
+                    <object folder="0" file="3" angle="340"/>
+                </key>
+                <key id="2" time="600">
+                    <object folder="0" file="3" x="1.5625" y="10.9375" angle="321.241914"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

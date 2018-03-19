@@ -1,5 +1,5 @@
 {
-    "id": "c8cf68c8-588b-4979-ac43-d5c588032462",
+    "id": "58aa3348-0b62-419c-a5b9-b785d92983e4",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "spriter_update",

@@ -1,5 +1,5 @@
 {
-    "id": "d9c3b8d5-94d5-4afa-9fa5-4be3e8dd2fa8",
+    "id": "b4c9dbec-53ab-4b53-80ff-d74146313d10",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "spriter_get_box_point_y",

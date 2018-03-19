@@ -1,5 +1,5 @@
 {
-    "id": "46deb2c6-59f9-4f52-81b4-6cf3075d695b",
+    "id": "0250fce4-b8bf-476c-aa8a-239544106d1c",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "spriter_get_point_direction",

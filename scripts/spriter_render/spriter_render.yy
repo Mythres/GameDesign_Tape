@@ -1,5 +1,5 @@
 {
-    "id": "876049dd-14e4-4c69-9ab6-79a9017852ca",
+    "id": "e2b41b61-3175-49b3-85b5-84a0e0c88a74",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "spriter_render",

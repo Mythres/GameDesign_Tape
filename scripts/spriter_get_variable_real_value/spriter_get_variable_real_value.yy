@@ -1,5 +1,5 @@
 {
-    "id": "e4ce3daf-3eb0-4f2d-8abd-3d59dc6adde0",
+    "id": "c15181f6-f8d6-4429-acb7-b407eccfd217",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "spriter_get_variable_real_value",

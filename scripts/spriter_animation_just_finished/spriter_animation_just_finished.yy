@@ -1,5 +1,5 @@
 {
-    "id": "9d481654-fc53-42fc-aecd-3c0a6fb97a6b",
+    "id": "e3685bbe-f0c5-4f72-b5d1-1dd4fa0e86d9",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "spriter_animation_just_finished",

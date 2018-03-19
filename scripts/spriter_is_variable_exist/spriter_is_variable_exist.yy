@@ -1,5 +1,5 @@
 {
-    "id": "1201e979-b95b-44ad-abed-d6d8ab86e07a",
+    "id": "6618c07d-d30c-4065-b894-e8765fd51601",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "spriter_is_variable_exist",

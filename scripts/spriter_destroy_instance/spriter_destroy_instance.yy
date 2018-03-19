@@ -1,5 +1,5 @@
 {
-    "id": "748e6eb3-650d-4732-bf4e-464e835accf3",
+    "id": "4fe2f8b6-dcdd-4833-9d09-f64a11dcc4ab",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "spriter_destroy_instance",

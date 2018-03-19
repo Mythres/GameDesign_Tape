@@ -1,5 +1,5 @@
 {
-    "id": "18c263af-c363-4598-9b4e-116aa402d95b",
+    "id": "e255a96a-b764-4891-bf9f-ac3db906b74d",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "spriter_set_manual_angle",

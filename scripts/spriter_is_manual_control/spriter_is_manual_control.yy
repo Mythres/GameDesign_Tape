@@ -1,5 +1,5 @@
 {
-    "id": "50418239-aa3f-414c-8b27-552f01507c35",
+    "id": "1da2e537-7516-467c-a50e-46d92a891289",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "spriter_is_manual_control",

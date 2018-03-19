@@ -1,5 +1,5 @@
 {
-    "id": "76339f77-3601-43d3-9dd9-ab379074cb37",
+    "id": "3001be4e-86b1-4a84-ae76-91ce7c790da4",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "spriter_remove_character_map",

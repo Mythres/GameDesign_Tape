@@ -1,5 +1,5 @@
 {
-    "id": "8db089f9-7727-4015-ae1d-21d859fb5d9a",
+    "id": "99d97f5a-2ce1-4166-add0-79d4b90e6194",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "spriter_apply_character_map",

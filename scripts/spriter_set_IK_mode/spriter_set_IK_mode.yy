@@ -1,5 +1,5 @@
 {
-    "id": "c4dd7ffb-322d-4bf0-88c7-c8813a06de39",
+    "id": "a322ef5c-c5ad-4e67-8ffe-c29ca35e8f2b",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "spriter_set_IK_mode",
