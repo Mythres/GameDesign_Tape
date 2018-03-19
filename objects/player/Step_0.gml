@@ -44,3 +44,5 @@ if(distance_to_object(platform) <= 0) {
 	y+=5
 }
 y+=5
+if(global.stop)
+	spriter_pause_playback(self)
