@@ -9,5 +9,8 @@ onground = false
 leftPressed=false
 toY = 0
 toX = 0
+triggered = false
+pointReached = true
+
 image_xscale = 0.5;
 image_yscale = 0.5;

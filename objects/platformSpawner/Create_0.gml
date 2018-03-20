@@ -4,11 +4,13 @@ global.playerName = ""
 
 triggered1 = false;
 triggered2 = false;
+triggered3 = true;
 
 total_delta = 0;
 score = 0;
 
 global.stop = false;
+global.restart = false;
 
 ini_open(working_directory + "leaderboard.ini");
 for(i = 1; i < 11; i++) {
