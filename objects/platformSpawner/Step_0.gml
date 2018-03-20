@@ -9,10 +9,12 @@ if(x - last_instance.x > 0.52 * 400) {
 	}
 	instance_create_depth(platfX, platfY, 1, platform);
 }
-/*if (total_delta > 2000000 && triggered1 == false) {
+
+if(global.stop && !triggered1){
 	triggered1 = true
 	event_user(0)
-}*/
+}
+
 if (total_delta > 2000000 && global.playerName != "" && triggered2 == false) {
 	position = 10
 	

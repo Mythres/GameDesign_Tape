@@ -34,15 +34,17 @@ else{
 if(distance_to_object(tape) < 1){
 	//you die!
 	spriter_set_current_animation(self, "Crumble", 0.1)
+	spriter_pause_playback(self)
+	global.stop = true
 }
 if(distance_to_object(taperol) < 30){
-	//you die
+	//you die!
 	spriter_set_current_animation(self, "Crumble", 0.1)
+	spriter_pause_playback(self)
+	global.stop = true
 }
 if(distance_to_object(platform) <= 0) {
 	x-=4
 	y+=5
 }
 y+=5
-if(global.stop)
-	spriter_pause_playback(self)
