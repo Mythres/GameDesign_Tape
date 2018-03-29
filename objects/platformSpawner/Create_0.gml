@@ -2,6 +2,8 @@
 // You can write your code in this editor
 global.playerName = ""
 
+dialogueClicked = false;
+
 triggered1 = false;
 triggered2 = false;
 triggered3 = true;

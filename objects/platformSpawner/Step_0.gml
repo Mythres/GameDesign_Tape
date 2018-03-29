@@ -5,6 +5,8 @@ if(global.restart && !triggered3) {
 	global.playerName = ""
 	global.stop = false
 	
+	dialogueClicked = false;
+	
 	triggered1 = false;
 	triggered2 = false;
 	triggered3 = true;
@@ -31,6 +33,8 @@ if(global.restart && !triggered3) {
 		}
 		instance_create_depth(platfX, platfY, -900, platform)	
 	}
+	
+	layer_hspeed(layer_get_id("background"), -1)
 }
 
 last_instance = instance_nearest(x, y, platform);
@@ -51,7 +55,7 @@ if(global.stop && !triggered1){
 
 if(global.stop) {
 	if(mouse_check_button(mb_left)) {
-		if(mouse_x < 797 && mouse_x > 574 && mouse_y < 669 && mouse_y > 613) {
+		if(mouse_x < 797 && mouse_x > 574 && mouse_y < 669 && mouse_y > 613 && dialogueClicked) {
 			global.restart = true;	
 		}
 	}

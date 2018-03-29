@@ -4,6 +4,6 @@ image_xscale = 0.1;
 image_yscale = 0.1;
 
 direction = 185
-speed = 5
+speed = 8
 
 triggered = false

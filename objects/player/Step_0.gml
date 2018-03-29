@@ -47,7 +47,7 @@ else{
 instplatform = instance_nearest(x, y, platform)
 if(distance_to_object(platform) < 10) {
 	speed = 0;
-	y -= 7
+	y -= 9
 	onground = true
 	pointReached = true
 	letPressed  = false
@@ -57,12 +57,15 @@ else{
 	onground = false
 	spriter_set_current_animation(self, "Idle", 0.1)
 }
-if(mouse_button == mb_left && onground) {
-	move_towards_point(x, y-200, 16)
+if(mouse_button == mb_left && onground && !global.stop) {
+	move_towards_point(x, y-250, 18)
 	pointReached = false;
 	toX = x
-	toY = y-200
+	toY = y-250
 	onground = false
+}
+if(mouse_check_button_released(mb_left)) {
+	speed = 0;	
 }
 if(distance_to_object(tape) < 1){
 	//you die!
@@ -73,8 +76,8 @@ if(distance_to_object(tape) < 1){
 dir = point_direction(x, y, instance_nearest(x, y, taperol).x, instance_nearest(x, y, taperol).y)
 test = distance_to_object(taperol)
 if((dir >= 225 && dir <= 315 && distance_to_object(taperol) <= 5) ||
-	((dir >= 315 || dir <= 45) && distance_to_object(taperol) <= 20) ||
-	(dir >= 45 && dir <= 135 && distance_to_object(taperol) <= 85) ||
+	((dir >= 315 || dir <= 45) && distance_to_object(taperol) <= 15) ||
+	(dir >= 45 && dir <= 135 && distance_to_object(taperol) <= 75) ||
 	(dir >= 135 && dir <= 225 && distance_to_object(taperol) <= 5)){
 	//you die!
 	spriter_set_current_animation(self, "Crumble", 0.1)
@@ -83,6 +86,6 @@ if((dir >= 225 && dir <= 315 && distance_to_object(taperol) <= 5) ||
 }
 if(distance_to_object(platform) <= 0) {
 	x-=3
-	y+=7
+	y+=9
 }
-y+=7
+y+=9
